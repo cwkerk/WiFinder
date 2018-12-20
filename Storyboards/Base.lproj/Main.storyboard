@@ -45,11 +45,11 @@
             </objects>
             <point key="canvasLocation" x="-1711" y="-1772"/>
         </scene>
-        <!--TV Shows-->
+        <!--Movies-->
         <scene sceneID="Bgm-le-E1W">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yxL-yG-aXY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="TV Shows" id="qbJ-fm-I9H"/>
+                    <tabBarItem key="tabBarItem" title="Movies" id="qbJ-fm-I9H"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Nf-2J-pm9">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -83,11 +83,11 @@
             </objects>
             <point key="canvasLocation" x="-2391" y="-845"/>
         </scene>
-        <!--Movies-->
+        <!--TV Shows-->
         <scene sceneID="35q-PJ-qLE">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2y2-D3-Xr8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Movies" id="CnD-yh-89U"/>
+                    <tabBarItem key="tabBarItem" title="TV Shows" id="CnD-yh-89U"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bPQ-uH-RiT">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -104,6 +104,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4oG-xa-1t1"/>
+        <segue reference="4l1-RU-Z1V"/>
     </inferredMetricsTieBreakers>
 </document>
