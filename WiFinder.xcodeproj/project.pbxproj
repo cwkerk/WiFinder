@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4A9A6D21CBD416001434C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A9A6C21CBD416001434C4 /* Constants.swift */; };
 		2C8F0E3421CA92EF0006A4BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3321CA92EF0006A4BF /* AppDelegate.swift */; };
-		2C8F0E3621CA92EF0006A4BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3521CA92EF0006A4BF /* ViewController.swift */; };
 		2C8F0E3921CA92EF0006A4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3721CA92EF0006A4BF /* Main.storyboard */; };
 		2C8F0E3B21CA92F00006A4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3A21CA92F00006A4BF /* Assets.xcassets */; };
 		2C8F0E3E21CA92F00006A4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3C21CA92F00006A4BF /* LaunchScreen.storyboard */; };
+		2C8F0E4B21CA95F90006A4BF /* ITunesSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E4A21CA95F90006A4BF /* ITunesSearchViewModel.swift */; };
+		2C8F0E4E21CA98B90006A4BF /* ITunesSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E4C21CA98B90006A4BF /* ITunesSearchViewController.swift */; };
+		2C8F0E5121CA9BD00006A4BF /* ITunesSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E5021CA9BD00006A4BF /* ITunesSearchManager.swift */; };
+		2C8F0E5321CA9CAE0006A4BF /* ITunesSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E5221CA9CAE0006A4BF /* ITunesSearchResult.swift */; };
 		B51E22A65185ED3982776EE5 /* Pods_WiFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7CB95F1D09AA8052FCE977 /* Pods_WiFinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C4A9A6C21CBD416001434C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2C8F0E3021CA92EF0006A4BF /* WiFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8F0E3321CA92EF0006A4BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C8F0E3521CA92EF0006A4BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C8F0E3821CA92EF0006A4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C8F0E3A21CA92F00006A4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C8F0E3D21CA92F00006A4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8F0E3F21CA92F00006A4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8F0E4A21CA95F90006A4BF /* ITunesSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchViewModel.swift; sourceTree = "<group>"; };
+		2C8F0E4C21CA98B90006A4BF /* ITunesSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchViewController.swift; sourceTree = "<group>"; };
+		2C8F0E5021CA9BD00006A4BF /* ITunesSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchManager.swift; sourceTree = "<group>"; };
+		2C8F0E5221CA9CAE0006A4BF /* ITunesSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchResult.swift; sourceTree = "<group>"; };
 		7A7CB95F1D09AA8052FCE977 /* Pods_WiFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6252A734A7EC8309FB89F1F /* Pods-WiFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		C6C21826A6C0BA208E79EB47 /* Pods-WiFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,14 +69,59 @@
 		2C8F0E3221CA92EF0006A4BF /* WiFinder */ = {
 			isa = PBXGroup;
 			children = (
+				2C8F0E4521CA951F0006A4BF /* Models */,
+				2C8F0E4621CA952F0006A4BF /* Views */,
+				2C8F0E4721CA95330006A4BF /* ViewModels */,
 				2C8F0E3321CA92EF0006A4BF /* AppDelegate.swift */,
-				2C8F0E3521CA92EF0006A4BF /* ViewController.swift */,
-				2C8F0E3721CA92EF0006A4BF /* Main.storyboard */,
 				2C8F0E3A21CA92F00006A4BF /* Assets.xcassets */,
-				2C8F0E3C21CA92F00006A4BF /* LaunchScreen.storyboard */,
 				2C8F0E3F21CA92F00006A4BF /* Info.plist */,
 			);
 			path = WiFinder;
+			sourceTree = "<group>";
+		};
+		2C8F0E4521CA951F0006A4BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F0E5021CA9BD00006A4BF /* ITunesSearchManager.swift */,
+				2C8F0E5221CA9CAE0006A4BF /* ITunesSearchResult.swift */,
+				2C4A9A6C21CBD416001434C4 /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C8F0E4621CA952F0006A4BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F0E4821CA95450006A4BF /* Storyboards */,
+				2C8F0E4921CA95620006A4BF /* ViewControllers */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2C8F0E4721CA95330006A4BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F0E4A21CA95F90006A4BF /* ITunesSearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2C8F0E4821CA95450006A4BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F0E3721CA92EF0006A4BF /* Main.storyboard */,
+				2C8F0E3C21CA92F00006A4BF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2C8F0E4921CA95620006A4BF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F0E4C21CA98B90006A4BF /* ITunesSearchViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		B26724BC0A3AAEF1E74FF784 /* Pods */ = {
@@ -214,8 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C8F0E3621CA92EF0006A4BF /* ViewController.swift in Sources */,
+				2C8F0E4B21CA95F90006A4BF /* ITunesSearchViewModel.swift in Sources */,
 				2C8F0E3421CA92EF0006A4BF /* AppDelegate.swift in Sources */,
+				2C8F0E5121CA9BD00006A4BF /* ITunesSearchManager.swift in Sources */,
+				2C4A9A6D21CBD416001434C4 /* Constants.swift in Sources */,
+				2C8F0E5321CA9CAE0006A4BF /* ITunesSearchResult.swift in Sources */,
+				2C8F0E4E21CA98B90006A4BF /* ITunesSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +422,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C95TRCT4C5;
 				INFOPLIST_FILE = WiFinder/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = chinwee.WiFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -381,7 +441,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C95TRCT4C5;
 				INFOPLIST_FILE = WiFinder/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = chinwee.WiFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
