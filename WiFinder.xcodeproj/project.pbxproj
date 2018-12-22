@@ -16,6 +16,7 @@
 		2C8F0E4E21CA98B90006A4BF /* ITunesSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E4C21CA98B90006A4BF /* ITunesSearchViewController.swift */; };
 		2C8F0E5121CA9BD00006A4BF /* ITunesSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E5021CA9BD00006A4BF /* ITunesSearchManager.swift */; };
 		2C8F0E5321CA9CAE0006A4BF /* ITunesSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E5221CA9CAE0006A4BF /* ITunesSearchResult.swift */; };
+		723C88E121CE20EC002A2A66 /* ITunesSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C88E021CE20EC002A2A66 /* ITunesSearchTableViewCell.swift */; };
 		B51E22A65185ED3982776EE5 /* Pods_WiFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7CB95F1D09AA8052FCE977 /* Pods_WiFinder.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		2C8F0E4C21CA98B90006A4BF /* ITunesSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchViewController.swift; sourceTree = "<group>"; };
 		2C8F0E5021CA9BD00006A4BF /* ITunesSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchManager.swift; sourceTree = "<group>"; };
 		2C8F0E5221CA9CAE0006A4BF /* ITunesSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchResult.swift; sourceTree = "<group>"; };
+		723C88E021CE20EC002A2A66 /* ITunesSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchTableViewCell.swift; sourceTree = "<group>"; };
 		7A7CB95F1D09AA8052FCE977 /* Pods_WiFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6252A734A7EC8309FB89F1F /* Pods-WiFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		C6C21826A6C0BA208E79EB47 /* Pods-WiFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		2C8F0E4621CA952F0006A4BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				723C88DD21CE2083002A2A66 /* CustomViews */,
 				2C8F0E4821CA95450006A4BF /* Storyboards */,
 				2C8F0E4921CA95620006A4BF /* ViewControllers */,
 			);
@@ -122,6 +125,14 @@
 				2C8F0E4C21CA98B90006A4BF /* ITunesSearchViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		723C88DD21CE2083002A2A66 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				723C88E021CE20EC002A2A66 /* ITunesSearchTableViewCell.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		B26724BC0A3AAEF1E74FF784 /* Pods */ = {
@@ -271,6 +282,7 @@
 				2C8F0E3421CA92EF0006A4BF /* AppDelegate.swift in Sources */,
 				2C8F0E5121CA9BD00006A4BF /* ITunesSearchManager.swift in Sources */,
 				2C4A9A6D21CBD416001434C4 /* Constants.swift in Sources */,
+				723C88E121CE20EC002A2A66 /* ITunesSearchTableViewCell.swift in Sources */,
 				2C8F0E5321CA9CAE0006A4BF /* ITunesSearchResult.swift in Sources */,
 				2C8F0E4E21CA98B90006A4BF /* ITunesSearchViewController.swift in Sources */,
 			);
@@ -420,8 +432,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C95TRCT4C5;
+				DEVELOPMENT_TEAM = YH5SLCL397;
 				INFOPLIST_FILE = WiFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,8 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C95TRCT4C5;
+				DEVELOPMENT_TEAM = YH5SLCL397;
 				INFOPLIST_FILE = WiFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

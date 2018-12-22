@@ -17,14 +17,47 @@
                     <view key="view" contentMode="scaleToFill" id="IBp-bf-KhX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="YeG-kC-gYl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LP3-df-Qto">
+                                <rect key="frame" x="0.0" y="120" width="375" height="498"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ITunesSearchTableViewCell" rowHeight="165" id="p5A-S1-fda" customClass="ITunesSearchTableViewCell" customModule="WiFinder" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="165"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p5A-S1-fda" id="3eg-zj-bpv">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="164.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YeG-kC-gYl" firstAttribute="leading" secondItem="kW6-5j-OPH" secondAttribute="leading" id="6b3-pC-2mN"/>
+                            <constraint firstItem="LP3-df-Qto" firstAttribute="leading" secondItem="kW6-5j-OPH" secondAttribute="leading" id="Oqc-Sk-pHG"/>
+                            <constraint firstItem="LP3-df-Qto" firstAttribute="trailing" secondItem="kW6-5j-OPH" secondAttribute="trailing" id="RBs-mX-Iyi"/>
+                            <constraint firstItem="LP3-df-Qto" firstAttribute="top" secondItem="YeG-kC-gYl" secondAttribute="bottom" id="XLb-1x-9Ls"/>
+                            <constraint firstItem="YeG-kC-gYl" firstAttribute="top" secondItem="kW6-5j-OPH" secondAttribute="top" id="ZXK-Fp-cnm"/>
+                            <constraint firstItem="LP3-df-Qto" firstAttribute="bottom" secondItem="kW6-5j-OPH" secondAttribute="bottom" id="sxb-Ts-kDi"/>
+                            <constraint firstItem="YeG-kC-gYl" firstAttribute="trailing" secondItem="kW6-5j-OPH" secondAttribute="trailing" id="zHi-Gx-VBm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="kW6-5j-OPH"/>
                     </view>
                     <navigationItem key="navigationItem" id="u9n-7F-tR1"/>
+                    <connections>
+                        <outlet property="searcher" destination="YeG-kC-gYl" id="SXk-gh-AJD"/>
+                        <outlet property="tableView" destination="LP3-df-Qto" id="I6t-o1-nyC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FTf-ir-TSA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1711" y="-72"/>
+            <point key="canvasLocation" x="-1711.2" y="-72.413793103448285"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7U9-Mu-jKJ">
@@ -104,6 +137,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4l1-RU-Z1V"/>
+        <segue reference="YBo-3l-QVl"/>
     </inferredMetricsTieBreakers>
 </document>

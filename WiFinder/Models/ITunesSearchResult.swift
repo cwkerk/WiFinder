@@ -9,6 +9,7 @@
 import SwiftyJSON
 
 struct ITunesSearchResult {
+  
   let description: String
   let imagePath: String
   let name: String
@@ -29,4 +30,5 @@ struct ITunesSearchResult {
         self.name = json["artistName"].stringValue
     }
   }
+  
 }

@@ -10,46 +10,50 @@ import RxSwift
 import RxCocoa
 
 class ITunesSearchViewModel: NSObject {
+  
   private let disposeBag = DisposeBag()
   private let model = ITunesSearchManager()
-  private let searchResults: BehaviorRelay<[ITunesSearchResult]>
+  private var searchResults = [ITunesSearchMedia: BehaviorRelay<[ITunesSearchResult]>]()
   private let viewController: ITunesSearchViewController
   
-  public var mediaType: ITunesSearchMedia = .music
-  
   init(viewController: ITunesSearchViewController) {
-    self.searchResults = BehaviorRelay<[ITunesSearchResult]>(value: [])
     self.viewController = viewController
     super.init()
-    if let tabBarController = viewController.tabBarController {
-      self.addObserver(tabBarController, forKeyPath: "selectedIndex", options: [.new], context: nil)
+    ITunesSearchMedia.allCases.forEach {
+      self.searchResults[$0] = BehaviorRelay<[ITunesSearchResult]>(value: [])
     }
+    self.bindSearcher(viewController.searcher)
+    self.bindTableView(viewController.tableView)
   }
   
-  deinit {
-    if let tabBarController = viewController.tabBarController {
-      self.removeObserver(tabBarController, forKeyPath: "selectedIndex")
-    }
-  }
-  
-  override func observeValue(
-    forKeyPath keyPath: String?,
-    of object: Any?, change: [NSKeyValueChangeKey : Any]?,
-    context: UnsafeMutableRawPointer?
-  ) {
-    if let key = keyPath, key == "selectedIndex" {
-      switch change?[NSKeyValueChangeKey.newKey] as? Int {
-        case .some(0): self.mediaType = .music
-        case .some(1): self.mediaType = .movie
-        case .some(2): self.mediaType = .tvShow
-        default: break
-      }
-    }
-  }
-  
-  private func search(hints: [String]) {
-    self.model.search(hints: hints, media: self.mediaType)?
-      .bind(to: self.searchResults)
+  public func search(hints: String) {
+    let hints = hints.components(separatedBy: "+")
+    self.model.search(hints: hints, media: self.viewController.mediaType)?
+      .bind(to: self.searchResults[self.viewController.mediaType]!)
       .disposed(by: self.disposeBag)
   }
+  
+  private func bindSearcher(_ searcher: UISearchBar) {
+    searcher.rx.text.orEmpty
+      .distinctUntilChanged()
+      .subscribe(
+        onNext: self.search,
+        onError: nil,
+        onCompleted: nil,
+        onDisposed: nil
+      )
+      .disposed(by: self.disposeBag)
+  }
+  
+  private func bindTableView(_ tableView: UITableView) {
+    self.searchResults[self.viewController.mediaType]?
+      .bind(to: tableView.rx.items(
+        cellIdentifier: ITunesSearchTableViewCell.identifier,
+        cellType: ITunesSearchTableViewCell.self
+      )) { (row, result, cell) in
+        cell.render(result: result)
+      }
+      .disposed(by: self.disposeBag)
+  }
+
 }

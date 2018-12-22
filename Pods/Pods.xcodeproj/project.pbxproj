@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,6 +48,7 @@
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D10F20B50F59247DC1F6FD05D95A1A78 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D9019D42EF3B3CD1DF7FE8B85441FB6 /* UISegmentedControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA854F2B83621CF7A5C153FCB58F0887 /* UISegmentedControl+Rx.swift */; };
 		1DF0DEB77D26401892D4E76463DD3949 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF2444D9FADB20D37E4979B475706E /* IQPreviousNextView.swift */; };
+		1DF4B9288C81F02E97218CCF2D0A110E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */; };
 		1E66A4899FC855FC61F13721CF63EB35 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5A9AEC90EDBF5EF0E780E94C50DC6 /* IQKeyboardReturnKeyHandler.swift */; };
 		1F1762BB953E4176F1D73094180FFD67 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF676E170F0F0FDC2765AC2685893E7E /* Signal.swift */; };
 		203A4CDD786CB6E18B108F8ADCFEA0BB /* RxDataSources-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B85354238F68DF521F2F362E9D9F3235 /* RxDataSources-dummy.m */; };
@@ -58,8 +59,10 @@
 		242B64E50ACCEFD8D8BBED3152B45B44 /* UIActivityIndicatorView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06208232A843079865FE14E7E52F1CC0 /* UIActivityIndicatorView+Rx.swift */; };
 		256E66A9DDB396F4007A1A7F218A0BB2 /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741AE6D63A3F9EA2DEA0EEA269B362D6 /* AnonymousObserver.swift */; };
 		257ECBCE6382D72A51990910158482AE /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B25DCCE738570456B2C926DAAB4B02 /* Debug.swift */; };
+		25A195CFCA17BD56D98B207C3F709513 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45AC0B4D053F4B04D3999303F9D8AD9 /* UIKit.framework */; };
 		26AE422E8A05C2ACFA836AF2A5D33196 /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029F89E24BE5B878D0CE4DC6F98FEB6 /* DisposeBase.swift */; };
 		26BBF9BC20F7EF1873B559D2E07924F4 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A5B1EDEFC52FE3EE4167FA10D0B67 /* Range.swift */; };
+		283199158781493B9CBEC4A75A88B69E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */; };
 		287FD44FC4DADAC35E55D3929ED29A32 /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29195DCDD73C42A5D618034F414ABAA6 /* InfiniteSequence.swift */; };
 		2A2F1945374C454A18AAB4638AFF7ED5 /* DeprecationWarner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FB967965134D1DF78FCF2371B6DAB0 /* DeprecationWarner.swift */; };
 		2A2FE216328BFC23AF9D30EAEFAA2303 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9570F5FC631612DB203F07099E340DC /* IQKeyboardManager.bundle */; };
@@ -91,6 +94,7 @@
 		3AD31160BB48EBD45F4668C642D00C7D /* SubjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E41953046C10D82108FA4169B7776 /* SubjectType.swift */; };
 		3C6666D35A9A46EACA8755DBFE0585AC /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93CE788FF7ED6419677A4B81A2B62BB /* Scan.swift */; };
 		3CC3CF6B54AE9F6E98CF655E20E8E5A3 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4DD5EB718EBB094FE2080CB4B4B444 /* Buffer.swift */; };
+		3D1474C367C73546A9258C4A1BFC9293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */; };
 		3D77B7DC6449E6CC41C0FF73714B6BE9 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73209E009689CF7D4829840F18F4026F /* IQNSArray+Sort.swift */; };
 		3EDA7575644614ACD562D23759D18DE8 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50949C3FCDD8CA06266A63D1131F4C84 /* IQUIView+Hierarchy.swift */; };
 		3F0A4A144F83D76477519E63EA71870C /* RxCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D443938C8B4F23CA22FC5D932443F82 /* RxCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -120,12 +124,10 @@
 		4B6585CA58CFBEFCF085B9B8B07001C5 /* StartWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2897CFDD1B33CE19BB58F0CC5F6053C /* StartWith.swift */; };
 		4B8E2D8CB5559EC943160B672AA69379 /* BehaviorRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4D5948482092565D76BCE34015228 /* BehaviorRelay.swift */; };
 		4C2B4FF9999880D621C7D3F785F457A3 /* TableViewSectionedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9B3B9A59FB7BD6E97AEA13D8BEB82 /* TableViewSectionedDataSource.swift */; };
-		4C581416B3835D20D2ED7CE6CC014075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */; };
 		4F4C746ACD8F19827C86EB340E956CD3 /* RxWebViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FF0D330EE9C15EA2879662F3D4A223 /* RxWebViewDelegateProxy.swift */; };
 		4FD40EA5173E57A18B26FF5C955EAE28 /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC758CF01606E4E3B8BB0886739ABE73 /* Skip.swift */; };
 		500E179CA8161D54B0E162CF0C5B4BC0 /* Maybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C260690C94A71AD5F6B174FB991D4DE /* Maybe.swift */; };
 		500F9B4F219216A2B4C86F19AB0D4182 /* RxAtomic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 161418199C69E820B5E8981A201368E0 /* RxAtomic-dummy.m */; };
-		5055B4310132D5D1EBF7F8D4964ED157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */; };
 		50EC3B9E911627BDE38339A231693053 /* RxTableViewDataSourcePrefetchingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782BB0E0ADCD912F5AFD543502232F45 /* RxTableViewDataSourcePrefetchingProxy.swift */; };
 		51B625C8BDBF7B247899FF64794370B8 /* Changeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83850D69F77F4ABF0B607D73B70CF1CA /* Changeset.swift */; };
 		51D4920B590249D2F2C963BA3E27D4D8 /* ElementAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF72DB205D110BDB531BCB4C2770E2 /* ElementAt.swift */; };
@@ -134,6 +136,7 @@
 		52E6A116ED28D781AC6D2AF734827E29 /* DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD75C049230079A25D2D98F10A4890C /* DistinctUntilChanged.swift */; };
 		536425B63F5C8BD490173298A1C9F35C /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEED6AE7C464477CC49D924704C471B /* Disposable.swift */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE3776819445E207121088A5EB7AC6 /* Request.swift */; };
+		53E0A72846668C4BDCBAEF9C879987ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E5B4E06EFDE1C6430DD0FB7CEFD8B1 /* QuartzCore.framework */; };
 		5492D6EC8DC5B7F44F10BB410C04F102 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF27A94AD06F9C24B3E16D881A9835 /* Filter.swift */; };
 		563D9561EB6C87951F5842F9FC39FB0A /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4387031A11443ED07233E9C71D692 /* Logging.swift */; };
 		56584D519BDF78D50F97B9FC1F22392E /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34979917970F092ABC2A11B79A7A083 /* InfiniteSequence.swift */; };
@@ -162,11 +165,12 @@
 		62389183399ED1DD946646CC73BFFEE9 /* SharedSequence+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B54542478AEA4C383F39591420339 /* SharedSequence+Operators.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B51C5C4A8F226B5F59F579CC67AFD /* ServerTrustPolicy.swift */; };
 		63F9EBA104EFCBD411C68E130A959823 /* UISlider+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E9E09A57AAAFEDFA4ED35F7ED26F2 /* UISlider+Rx.swift */; };
+		64F293B14514DED820723265B1806C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */; };
 		64F354609DA76AD80DD40850DB763562 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F7E01E698EA2AE1B2005F3D50C8A9D /* IQKeyboardManagerSwift-dummy.m */; };
+		653E139F7B8DA42DA80B157C898489A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */; };
 		661AD3DE4E6EB78A1DD5C33DEF53C220 /* ObservableConvertibleType+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45F3AC581B800534F4D2AA6E4C659E /* ObservableConvertibleType+Driver.swift */; };
 		678F00EC708CA4C20A0E0366FEF7FA74 /* RxPickerViewDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95139BE286179D796FB036AE3EFE887A /* RxPickerViewDataSourceType.swift */; };
 		6C2066D1F11BEC92045C82BDBC982DBF /* RxSearchControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0A3B1242B103D64F0DF1D0FD5362E /* RxSearchControllerDelegateProxy.swift */; };
-		6C495973EB0F30DCB1ED050B9165E45E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */; };
 		6CAB9974DC28BBB6DE4677BE68FF6F60 /* ObserveOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9794117AE75D7F35F683150EC3F09B4 /* ObserveOn.swift */; };
 		6DA2F580361869F0C281EE0FA61D4468 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244EE92219945EBA429225C02230C5CC /* PriorityQueue.swift */; };
 		6E67DFDCD807369FC97F5F093ADCEB94 /* Differentiator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F294B75F34A2CEEB0E1333CE5DBB6FD7 /* Differentiator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -174,9 +178,7 @@
 		6F152B1D021914A96851A7B03A310897 /* _RXKVOObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D2AB2706A3F694F6FA97D8C4478A91 /* _RXKVOObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FA0019746BB30AF58E427FD0CBCEE3C /* SectionModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D7B643BFC74C34EE9C8B49C5E364DF /* SectionModelType.swift */; };
 		70EA608637DBEDAB1CD335590E757870 /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7FF265075CC885EC1DE9079269195 /* SubscribeOn.swift */; };
-		72A8BD3037C89C5D0873332960AEDAE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */; };
 		72D3CA43E4D6542857C718012372DD5B /* DeprecationWarner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EDB043B99652CADB45E65D0930D0D8 /* DeprecationWarner.swift */; };
-		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */; };
 		74AAF76A2FA67F5EF33DC745EEF6A508 /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECA03F9B99FB40A3F18B7776BDA4E3 /* ObserverType.swift */; };
 		74E4A2F252D06CE2D782D088343D849E /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E883550D1CB2678D8865280919D1E7F /* DispatchQueueConfiguration.swift */; };
 		75B751FD40D5947DB1EEBFA51BB583F1 /* InvocableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E341C0C802DE88E4709B1946D5A23B4D /* InvocableType.swift */; };
@@ -194,10 +196,10 @@
 		802A7FC3BB63E7B0FABDEB7D283EBC68 /* SkipWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB35EE31C1A3721F87A82F670D2720B /* SkipWhile.swift */; };
 		8096D78E691E8E22B9C53E3A2B2597F0 /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD898BAF2EE6DF61E3FD288DA28A87D /* Binder.swift */; };
 		8108DBFACDB9768755BF6B0E192B4244 /* ReplaySubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3624BD88B59F2EBC241016F6E619D64 /* ReplaySubject.swift */; };
-		81A2F975614A9B94F265CD3BA816B0A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F27A112A4FA0791B23C1855629538B /* QuartzCore.framework */; };
 		81AECC5838E2EFC5F3C5071A97550B61 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E331886593254C6B4EEF9562638AE9 /* RxSwift.framework */; };
 		8253C04716B2C6BE88755512C4BB2D27 /* Differentiator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E442826A7F06524C0FF9E94BCA2B6B1 /* Differentiator-dummy.m */; };
 		82F04F2969A917497B03A893E1EC550B /* DataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5690712C81CD7D858553CA7741B10 /* DataSources.swift */; };
+		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */; };
 		83B0E4A33786C45550CBAA86DD9E400B /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11C8EEBB26D93E51E848CC577A5CBF /* IQToolbar.swift */; };
 		84314D42672EA6DE116ED3D9F52AC45C /* SynchronizedDisposeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B90E400CFFF8C53BBDE8AD35E1759 /* SynchronizedDisposeType.swift */; };
 		84CB0D7A5A192A5BFD8DE2CF7A1801B6 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0806AE73B0768CCA8C8F12A39476C9C /* Zip.swift */; };
@@ -215,6 +217,8 @@
 		8A5852F3492403A910E74B573FAF4A6E /* String+IdentifiableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF42AE5ADB5BE32B29B8BAE77D8CC48 /* String+IdentifiableType.swift */; };
 		8ADC5448AAE1B767E70AB90FDE517DC9 /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC190EEEC761C492921A7578AFD11F /* CompositeDisposable.swift */; };
 		8B326FEC15C099FD3DF992F273AAE97F /* NSTextField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75F29CF601E551B4C669BAD2F80B6D8 /* NSTextField+Rx.swift */; };
+		8BF09E2D2C4F573B450D5106CBD8876F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */; };
+		8C24D10078B6686E6A81E92E81EED4D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF657C9A7133D844A61927946B3234B /* CoreGraphics.framework */; };
 		8D8BFE111F45C0219FB1D24672CAB5C8 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E78308916416BB9426401740F70BD /* Platform.Linux.swift */; };
 		8DAB2A154B4E5641B589B0DF1D24285C /* NotificationCenter+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33910A713DFF056B57424FE91655A195 /* NotificationCenter+Rx.swift */; };
 		8FA01AF7DEDCABB2923CABA8C968B313 /* UIPickerView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F21C31C07E152F551CAF04EA1CC5DB /* UIPickerView+Rx.swift */; };
@@ -245,7 +249,6 @@
 		A08469AE1C1742A28984C3CEBAA4415D /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83B4724D076AAAE972CB65CAD97E3B /* ObservableConvertibleType.swift */; };
 		A1DE131C5839C42D06FD9C88D14D0168 /* ObservableType+PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97777F3468E32805A05092FD73B3A29 /* ObservableType+PrimitiveSequence.swift */; };
 		A250B0E27704DCFD73BF6CC0A712457D /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A256C38B91680D024D26B231F9991 /* NSObject+Rx.swift */; };
-		A25F717B5E0C4E6A6DE933B0BF0F6417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A27A06AC329312E12405EA8D4B9A9E /* NetworkReachabilityManager.swift */; };
 		A536D9E9B316463E039BD40B8ADD7592 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80390EDCE5295E183896C2D3E18B1159 /* Error.swift */; };
 		A6652884E1C11C0D64A2A4234938487B /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6588AFC315CF961C70647314CDB413E /* Deprecated.swift */; };
@@ -287,7 +290,6 @@
 		B9C141F3A6A8F042346E33331B61B5D1 /* KVORepresentable+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213B1089B80F69FCBA698816B675A18 /* KVORepresentable+Swift.swift */; };
 		B9EFAE1E664D9CA68F1D7CC862CF17D6 /* RxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 778EAB27F340891CAD1270D9DA834792 /* RxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9FA7F9D9B1B21D418ED9D591227EB10 /* UIDatePicker+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD32329DED697EAA5C0C4AEF2C4274C /* UIDatePicker+Rx.swift */; };
-		BB04209DDB72CD325AE09D2EC3EBC380 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4834EAB9CB1F197608586F9229F4B5 /* CoreGraphics.framework */; };
 		BB4FCDEB31262E21F9021F22B2A73FAC /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D7522359BC8F649F032A87D1FAEB9 /* IQTitleBarButtonItem.swift */; };
 		BBE9597F8CF4074C2A94DEE3A5E87A94 /* TakeUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43998396BD793E69571F514487773A /* TakeUntil.swift */; };
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705E0D6CB16E993C2F0C514D854D7A1 /* Validation.swift */; };
@@ -334,8 +336,8 @@
 		E15AF791C8D010FB48BA1935C83D1222 /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267209176EA0CCE20C33C4D1FD2A4ADD /* RxAtomic.framework */; };
 		E1892F605D93810A9FBE0902043EB8AF /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DA356B3D85953B7BF71B9B11BBA12 /* IQKeyboardManager.swift */; };
 		E1E729DD19EDA12DF13E1A4CF6D748C8 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D98567583F5D534FB33A3D71638998 /* IQKeyboardManagerConstantsInternal.swift */; };
-		E3EF505A67060CFB3E503F5B79D6E909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */; };
 		E5114D3BF3D15502C5879A33F7F83787 /* NSTextStorage+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9336F532026E9EBE5D79D1849A1EE0 /* NSTextStorage+Rx.swift */; };
+		E611C8CDB9FFD564D5B2A57C23CD0117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */; };
 		E6E2AE69F510515EAF2472332B606C1D /* SerialDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB2E27E28FC27FD2DD25F9A973CCFC /* SerialDisposable.swift */; };
 		E80305154A4BD218FC3345910ED1D4A3 /* ControlEvent+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC52F11E5858BBB828702EC68FF6E8D /* ControlEvent+Driver.swift */; };
 		E85F758F2AF69CEA1E37CC69AD6BBC73 /* RxMutableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276447E8583D329358C265EF61BB926 /* RxMutableBox.swift */; };
@@ -349,8 +351,6 @@
 		EC1CA544B67DD6EB34E0F4E8EFA20145 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7390D7EB759E065209B23044E7B16685 /* Merge.swift */; };
 		ECDEA590A734C94262D5D81FE37F71AF /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AA7B35CB8B4D9F0DAC8942E01DFB95 /* Errors.swift */; };
 		ECFFD2EE10EC13C44AE1F950D74A2D25 /* ControlProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904E2363890A420D896E673DE0808F1 /* ControlProperty.swift */; };
-		EE20C85515D53DE61D8435080677F58E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263DA01DBE0B2AA675E311308D24E663 /* UIKit.framework */; };
-		EE70870BAB00C57BC59AE31228A53BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */; };
 		EEC5EE727FA2DF9D913B4E2A48B57DAD /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FE1443F37F34D0A3240FE6C49CE379 /* IQUITextFieldView+Additions.swift */; };
 		EEE9942F0EEFD8ABFC9CF800D95232D4 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617B4BC6EFC99C51C761581A6B0AD3DF /* Lock.swift */; };
 		EF7D1E2116936E8C0A17CA05968574D6 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF21909B87ACF710A0C33705A35FC417 /* Throttle.swift */; };
@@ -375,8 +375,8 @@
 		F83F206FA2004FB5A005F65A6A549DCE /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1F2985E418527D25A2A0405D0CB1F /* Queue.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3625FA85122E58C2B18C24B5070A00 /* Alamofire.swift */; };
 		F9EABE4827901FC45323C5CA02B63ECE /* FloatingPointType+IdentifiableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB3797D3047A6244DE8332C1E211A79 /* FloatingPointType+IdentifiableType.swift */; };
+		FA2982640743A9A7199246A88569090E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */; };
 		FB7BDF53AB835BD5A0E7F38622F82149 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6DF6BA31A8E968C9E0401CAD9D7085 /* ScheduledItemType.swift */; };
-		FB90221F2DA20FC9A22FF81FC2A3A216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */; };
 		FC31351773CDBD6C6B1233005A8FC2F8 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B843646A63B0AC6AFD48F55C4A16DF24 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCB2851F81959D7161D6D08030739AC8 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D94DDC1C4215068C503CD50F75226 /* Window.swift */; };
 		FD4A5DD39F7A33F328711DEBDB6C68FF /* CurrentThreadScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC06E6F3552DF7F6FF163A01E0CB54B /* CurrentThreadScheduler.swift */; };
@@ -496,12 +496,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01AB721307382C1E878D6C872B450642 /* Pods_WiFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AB721307382C1E878D6C872B450642 /* Pods_WiFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WiFinder.framework; path = "Pods-WiFinder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E4084CE8B2725B693460DE47A2DDB7 /* AsyncSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncSubject.swift; path = RxSwift/Subjects/AsyncSubject.swift; sourceTree = "<group>"; };
 		02DF4F715EB67CC92E88C224726F5B4B /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
 		032DA356B3D85953B7BF71B9B11BBA12 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
 		03941A21106822594CDF419AD8336933 /* _RXDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RXDelegateProxy.m; path = RxCocoa/Runtime/_RXDelegateProxy.m; sourceTree = "<group>"; };
-		05833A860C7F7DDAA6FB7A18FF0A0324 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05833A860C7F7DDAA6FB7A18FF0A0324 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxCocoa.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0597188380EAF3C6B5B4B36EEACEF249 /* UITableView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Rx.swift"; path = "RxCocoa/iOS/UITableView+Rx.swift"; sourceTree = "<group>"; };
 		05C34CDD4D08D2D20243435B2616E525 /* LockOwnerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockOwnerType.swift; path = RxSwift/Concurrency/LockOwnerType.swift; sourceTree = "<group>"; };
 		0607974CED0947551C72EE554D01DB28 /* Switch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Switch.swift; path = RxSwift/Observables/Switch.swift; sourceTree = "<group>"; };
@@ -511,12 +511,13 @@
 		070EDCCABA7DB7289BB2E03B642B1720 /* SectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionModel.swift; path = Sources/Differentiator/SectionModel.swift; sourceTree = "<group>"; };
 		074824FEC5B366E991DF2FEEFE054DC7 /* RxCollectionViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxCollectionViewDelegateProxy.swift; sourceTree = "<group>"; };
 		075C825802768525710EAE831C49CE62 /* NSImageView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImageView+Rx.swift"; path = "RxCocoa/macOS/NSImageView+Rx.swift"; sourceTree = "<group>"; };
-		07678E3310B698676E762DE5846F6B36 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07678E3310B698676E762DE5846F6B36 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B928572FCD7FDAC2550CA8CB952E26 /* NSSlider+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSSlider+Rx.swift"; path = "RxCocoa/macOS/NSSlider+Rx.swift"; sourceTree = "<group>"; };
 		0940BF2D843F4DDA53E7955531179AE0 /* NSTextView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextView+Rx.swift"; path = "RxCocoa/macOS/NSTextView+Rx.swift"; sourceTree = "<group>"; };
 		09EDB043B99652CADB45E65D0930D0D8 /* DeprecationWarner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeprecationWarner.swift; path = Platform/DeprecationWarner.swift; sourceTree = "<group>"; };
 		09F9B3B9A59FB7BD6E97AEA13D8BEB82 /* TableViewSectionedDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewSectionedDataSource.swift; path = Sources/RxDataSources/TableViewSectionedDataSource.swift; sourceTree = "<group>"; };
 		0AEE8726F4B8AD74DF4645975B453081 /* UIGestureRecognizer+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+Rx.swift"; path = "RxCocoa/iOS/UIGestureRecognizer+Rx.swift"; sourceTree = "<group>"; };
+		0BF657C9A7133D844A61927946B3234B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		0CEED6AE7C464477CC49D924704C471B /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = RxSwift/Disposable.swift; sourceTree = "<group>"; };
 		0E36E43BBD6B9535EE3BF274BD01DE48 /* SchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchedulerType.swift; path = RxSwift/SchedulerType.swift; sourceTree = "<group>"; };
 		0F24E81D533E16C5A50FD6B3690272E6 /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extensions.swift"; path = "Sources/RxDataSources/Array+Extensions.swift"; sourceTree = "<group>"; };
@@ -526,7 +527,7 @@
 		10D3AA9E1BB6736B93E53BB424D0D8B4 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		11C7F76B584A8FD8D01D118E640C0CC7 /* Producer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Producer.swift; path = RxSwift/Observables/Producer.swift; sourceTree = "<group>"; };
 		11D0E0F21C473B9DBE8051C60F3E53AE /* RxCollectionViewSectionedReloadDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewSectionedReloadDataSource.swift; path = Sources/RxDataSources/RxCollectionViewSectionedReloadDataSource.swift; sourceTree = "<group>"; };
-		11E54AE80A5D2BB9977AD5015D661CE2 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E54AE80A5D2BB9977AD5015D661CE2 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxAtomic.framework; path = RxAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1213B1089B80F69FCBA698816B675A18 /* KVORepresentable+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KVORepresentable+Swift.swift"; path = "RxCocoa/Foundation/KVORepresentable+Swift.swift"; sourceTree = "<group>"; };
 		13BF29C29EAB5FF375953C24EC2CFE7C /* BooleanDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanDisposable.swift; path = RxSwift/Disposables/BooleanDisposable.swift; sourceTree = "<group>"; };
 		151B51E5C4DAF7E40B97D4D542ACE920 /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = RxSwift/Observables/Debounce.swift; sourceTree = "<group>"; };
@@ -568,9 +569,9 @@
 		24D6F6B82A7D14BBF72725DB743AA94B /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		24D90E3A649E65C99F1AC4A28AACAEFE /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = RxSwift/Observables/Delay.swift; sourceTree = "<group>"; };
 		257C4BBEC05DB66A9471883C6E96BFDA /* HistoricalSchedulerTimeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalSchedulerTimeConverter.swift; path = RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift; sourceTree = "<group>"; };
-		263DA01DBE0B2AA675E311308D24E663 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		267209176EA0CCE20C33C4D1FD2A4ADD /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C938C22EB3C0B502EAF2A1ADBF872E /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		26FB1D0CB333C581F4BD626E96E68A6B /* RxPickerViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		29195DCDD73C42A5D618034F414ABAA6 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
 		297E1A7686B659CB3A91005595603834 /* RxCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxCocoa.xcconfig; sourceTree = "<group>"; };
@@ -604,7 +605,7 @@
 		3C260690C94A71AD5F6B174FB991D4DE /* Maybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maybe.swift; path = RxSwift/Traits/Maybe.swift; sourceTree = "<group>"; };
 		3C3A5B1EDEFC52FE3EE4167FA10D0B67 /* Range.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Range.swift; path = RxSwift/Observables/Range.swift; sourceTree = "<group>"; };
 		3E6FBA727866C386234FE3F0C2C5DB59 /* Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rx.swift; path = RxSwift/Rx.swift; sourceTree = "<group>"; };
-		404071076F75376580DDE7C356452508 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		404071076F75376580DDE7C356452508 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		406095E445D0C4E6854AFD6BC61A65AA /* AnimatableSectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableSectionModel.swift; path = Sources/Differentiator/AnimatableSectionModel.swift; sourceTree = "<group>"; };
 		40CB811AE94C5C0F61F524D9DB5F1143 /* RxCollectionViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
 		40E339383192CDB5F2BCFD4F035A52A7 /* NopDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NopDisposable.swift; path = RxSwift/Disposables/NopDisposable.swift; sourceTree = "<group>"; };
@@ -633,6 +634,7 @@
 		51FF0D330EE9C15EA2879662F3D4A223 /* RxWebViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxWebViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxWebViewDelegateProxy.swift; sourceTree = "<group>"; };
 		5202AEAE3FC1825A444A954B4D55D58E /* RxCocoaObjCRuntimeError+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RxCocoaObjCRuntimeError+Extensions.swift"; path = "RxCocoa/Common/RxCocoaObjCRuntimeError+Extensions.swift"; sourceTree = "<group>"; };
 		52D98567583F5D534FB33A3D71638998 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		54E5B4E06EFDE1C6430DD0FB7CEFD8B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		56F0974512903D2EC57CA9F212961CFE /* RxTabBarControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTabBarControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTabBarControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		5746DDBBF8C787DA3A3AA2C501E6DB8F /* VirtualTimeScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeScheduler.swift; path = RxSwift/Schedulers/VirtualTimeScheduler.swift; sourceTree = "<group>"; };
 		578F0C5848777F218BC62F757DADA6B8 /* CombineLatest+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+Collection.swift"; path = "RxSwift/Observables/CombineLatest+Collection.swift"; sourceTree = "<group>"; };
@@ -709,7 +711,7 @@
 		87C450BA04F3264E23AEEE1962951D4A /* RetryWhen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryWhen.swift; path = RxSwift/Observables/RetryWhen.swift; sourceTree = "<group>"; };
 		886B65A116DABED30191F7F141103DA6 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		8899E32385076D96791159D01A1FBA0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88BA3A0FCE33C3EA4D57AAE06E853FD0 /* Differentiator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Differentiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BA3A0FCE33C3EA4D57AAE06E853FD0 /* Differentiator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Differentiator.framework; path = Differentiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7A1FBC4360FC54DC5EAED3B015B575 /* UICollectionView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Rx.swift"; path = "RxCocoa/iOS/UICollectionView+Rx.swift"; sourceTree = "<group>"; };
 		8AC730BA9A704F652AD5B27A2FCEC537 /* Using.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Using.swift; path = RxSwift/Observables/Using.swift; sourceTree = "<group>"; };
 		8B180CB95449D621A959006F40B245E8 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
@@ -729,14 +731,14 @@
 		929DF43209AD446CD5C44E4F107AAB06 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Rx.swift"; path = "RxCocoa/iOS/UIViewController+Rx.swift"; sourceTree = "<group>"; };
 		930A3097BCE045820A85EEC56852FA5C /* Repeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeat.swift; path = RxSwift/Observables/Repeat.swift; sourceTree = "<group>"; };
 		93A30F022600C93C4BBE3B3E885CF367 /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIfEmpty.swift; path = RxSwift/Observables/DefaultIfEmpty.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B560BBCBA3C2CC0DF4B87C7C76A589 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
 		940B046BB6FD99C8D7E7CFA36949050B /* Observable+Bind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Bind.swift"; path = "RxCocoa/Common/Observable+Bind.swift"; sourceTree = "<group>"; };
 		943C8E015755831DFDD4E039599C39B8 /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
 		95139BE286179D796FB036AE3EFE887A /* RxPickerViewDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDataSourceType.swift; path = RxCocoa/iOS/Protocols/RxPickerViewDataSourceType.swift; sourceTree = "<group>"; };
 		95A27A06AC329312E12405EA8D4B9A9E /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		95A9A343392B2EB1B659D9565A880B59 /* UITabBarItem+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarItem+Rx.swift"; path = "RxCocoa/iOS/UITabBarItem+Rx.swift"; sourceTree = "<group>"; };
-		9615F758DF7DACB77499A768A4CADA9B /* RxAtomic.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = RxAtomic.c; path = RxAtomic/RxAtomic.c; sourceTree = "<group>"; };
+		9615F758DF7DACB77499A768A4CADA9B /* RxAtomic.c */ = {isa = PBXFileReference; includeInIndex = 1; name = RxAtomic.c; path = RxAtomic/RxAtomic.c; sourceTree = "<group>"; };
 		96B0FCFFCF2A9149FC5CE91C2D1AC083 /* Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reduce.swift; path = RxSwift/Observables/Reduce.swift; sourceTree = "<group>"; };
 		96B223BDF7839E0ADD0FA3C960E6793E /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
 		96ECA03F9B99FB40A3F18B7776BDA4E3 /* ObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverType.swift; path = RxSwift/ObserverType.swift; sourceTree = "<group>"; };
@@ -784,7 +786,7 @@
 		AFB999F6C097C897EDF0FBC349B9A3E8 /* ViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewTransition.swift; path = Sources/RxDataSources/ViewTransition.swift; sourceTree = "<group>"; };
 		B0DEDD359295F2BFEDA960692443B328 /* AnyObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyObserver.swift; path = RxSwift/AnyObserver.swift; sourceTree = "<group>"; };
 		B15DC9422C0277BF2236257EBFE57296 /* UIWebView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWebView+Rx.swift"; path = "RxCocoa/iOS/UIWebView+Rx.swift"; sourceTree = "<group>"; };
-		B2C18B7FCCEE647E91AC4F93F88B53B5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C18B7FCCEE647E91AC4F93F88B53B5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D2B666B0823E3AEB4DB4D154139DF8 /* PublishRelay+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PublishRelay+Signal.swift"; path = "RxCocoa/Traits/Signal/PublishRelay+Signal.swift"; sourceTree = "<group>"; };
 		B2DDEDB14628908DC4814B62B94B703E /* OperationQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationQueueScheduler.swift; path = RxSwift/Schedulers/OperationQueueScheduler.swift; sourceTree = "<group>"; };
 		B3624BD88B59F2EBC241016F6E619D64 /* ReplaySubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaySubject.swift; path = RxSwift/Subjects/ReplaySubject.swift; sourceTree = "<group>"; };
@@ -817,7 +819,7 @@
 		C2B7FF265075CC885EC1DE9079269195 /* SubscribeOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscribeOn.swift; path = RxSwift/Observables/SubscribeOn.swift; sourceTree = "<group>"; };
 		C30CD4B5EABB669371FB1056BFCCFA43 /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Rx.swift"; path = "RxCocoa/iOS/UIScrollView+Rx.swift"; sourceTree = "<group>"; };
 		C3350C2D90E4D581AFF06E90C5492511 /* String+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Rx.swift"; path = "RxSwift/Extensions/String+Rx.swift"; sourceTree = "<group>"; };
-		C39A70148394AB2BC608535D7AA0A76D /* RxDataSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxDataSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39A70148394AB2BC608535D7AA0A76D /* RxDataSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxDataSources.framework; path = RxDataSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45728556BF52C6D629BFF3AD4DF270D /* Pods-WiFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WiFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		C483865C0E32D0E99DED4654F03B6907 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		C63C09052628F3F9438B38CBD263C3EE /* ItemEvents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemEvents.swift; path = RxCocoa/iOS/Events/ItemEvents.swift; sourceTree = "<group>"; };
@@ -839,7 +841,7 @@
 		D101CC033C63677A830275AE88AB2DEF /* RxAtomic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxAtomic-prefix.pch"; sourceTree = "<group>"; };
 		D10F20B50F59247DC1F6FD05D95A1A78 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		D155C29C460B1CE1DC6C230FAC5888A2 /* RxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxSwift-dummy.m"; sourceTree = "<group>"; };
-		D1F27A112A4FA0791B23C1855629538B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D45AC0B4D053F4B04D3999303F9D8AD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D4CE35875E4CE7AB1A0E97B8FC9A04B3 /* Disposables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposables.swift; path = RxSwift/Disposables/Disposables.swift; sourceTree = "<group>"; };
 		D5DDBF6DF5071BA8CB29E9DC7A62A285 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
 		D75F29CF601E551B4C669BAD2F80B6D8 /* NSTextField+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextField+Rx.swift"; path = "RxCocoa/macOS/NSTextField+Rx.swift"; sourceTree = "<group>"; };
@@ -876,7 +878,6 @@
 		E91D412459A55D5E7F23978038850995 /* RxTableViewDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourceType.swift; path = RxCocoa/iOS/Protocols/RxTableViewDataSourceType.swift; sourceTree = "<group>"; };
 		E955913430CC13351600E95EAC6218DE /* Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = RxCocoa/Traits/Driver/Driver.swift; sourceTree = "<group>"; };
 		E9570F5FC631612DB203F07099E340DC /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
-		EB4834EAB9CB1F197608586F9229F4B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		EB4FF4DAF8E4D3BCF428631117439846 /* KVORepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVORepresentable.swift; path = RxCocoa/Foundation/KVORepresentable.swift; sourceTree = "<group>"; };
 		EC382703400334D577AF0DB29FD12696 /* RxCocoa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCocoa.swift; path = RxCocoa/RxCocoa.swift; sourceTree = "<group>"; };
 		ECE7D799CE5C278206722B929637CDDD /* ConcurrentDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentDispatchQueueScheduler.swift; path = RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift; sourceTree = "<group>"; };
@@ -885,8 +886,7 @@
 		ED9EEF4D1CAE938D8E04986718BF0F21 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		EE3EEECDF31644EF966C31A649DBEF8C /* UISwitch+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwitch+Rx.swift"; path = "RxCocoa/iOS/UISwitch+Rx.swift"; sourceTree = "<group>"; };
 		EF0228C4EEC41713E6B1B1F264487D5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF74869C52B5289161A9044CD9DB20D0 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF74869C52B5289161A9044CD9DB20D0 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F18D032A2BBEE98580EBAA853118AA /* _RX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RX.m; path = RxCocoa/Runtime/_RX.m; sourceTree = "<group>"; };
 		F1B45355B863440A1A6AAFD55496D708 /* NSView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+Rx.swift"; path = "RxCocoa/macOS/NSView+Rx.swift"; sourceTree = "<group>"; };
 		F1FA8C0EA74D38D71B6200429AB96B09 /* Pods-WiFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WiFinder-umbrella.h"; sourceTree = "<group>"; };
@@ -920,7 +920,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C581416B3835D20D2ED7CE6CC014075 /* Foundation.framework in Frameworks */,
+				FA2982640743A9A7199246A88569090E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -928,7 +928,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C495973EB0F30DCB1ED050B9165E45E /* Foundation.framework in Frameworks */,
+				1DF4B9288C81F02E97218CCF2D0A110E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,7 +936,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3EF505A67060CFB3E503F5B79D6E909 /* Foundation.framework in Frameworks */,
+				8BF09E2D2C4F573B450D5106CBD8876F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -944,7 +944,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB90221F2DA20FC9A22FF81FC2A3A216 /* Foundation.framework in Frameworks */,
+				653E139F7B8DA42DA80B157C898489A2 /* Foundation.framework in Frameworks */,
 				E15AF791C8D010FB48BA1935C83D1222 /* RxAtomic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -953,10 +953,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB04209DDB72CD325AE09D2EC3EBC380 /* CoreGraphics.framework in Frameworks */,
-				A25F717B5E0C4E6A6DE933B0BF0F6417 /* Foundation.framework in Frameworks */,
-				81A2F975614A9B94F265CD3BA816B0A4 /* QuartzCore.framework in Frameworks */,
-				EE20C85515D53DE61D8435080677F58E /* UIKit.framework in Frameworks */,
+				8C24D10078B6686E6A81E92E81EED4D8 /* CoreGraphics.framework in Frameworks */,
+				3D1474C367C73546A9258C4A1BFC9293 /* Foundation.framework in Frameworks */,
+				53E0A72846668C4BDCBAEF9C879987ED /* QuartzCore.framework in Frameworks */,
+				25A195CFCA17BD56D98B207C3F709513 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -964,7 +964,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+				834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,7 +972,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72A8BD3037C89C5D0873332960AEDAE5 /* Foundation.framework in Frameworks */,
+				283199158781493B9CBEC4A75A88B69E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -980,7 +980,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE70870BAB00C57BC59AE31228A53BB1 /* Foundation.framework in Frameworks */,
+				64F293B14514DED820723265B1806C32 /* Foundation.framework in Frameworks */,
 				CEC157B3B02276FD08F66519A441FD1D /* RxAtomic.framework in Frameworks */,
 				1298444FA2D8E735D1A7D189587EE2DB /* RxSwift.framework in Frameworks */,
 			);
@@ -991,7 +991,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EC74598226EDA71B2FFE589DD046CA1 /* Differentiator.framework in Frameworks */,
-				5055B4310132D5D1EBF7F8D4964ED157 /* Foundation.framework in Frameworks */,
+				E611C8CDB9FFD564D5B2A57C23CD0117 /* Foundation.framework in Frameworks */,
 				A93779702D770A3E14F5A3ED59C9E4B2 /* RxAtomic.framework in Frameworks */,
 				D70C25D42EA0E7D97508916516542FB9 /* RxCocoa.framework in Frameworks */,
 				81AECC5838E2EFC5F3C5071A97550B61 /* RxSwift.framework in Frameworks */,
@@ -1169,6 +1169,7 @@
 				8FFC792E9E32017B702B2A3531EDEB96 /* URLSession+Rx.swift */,
 				EC3A7FB10E755AC24FFDD8BC96B8DA76 /* Support Files */,
 			);
+			name = RxCocoa;
 			path = RxCocoa;
 			sourceTree = "<group>";
 		};
@@ -1178,6 +1179,7 @@
 				10D3AA9E1BB6736B93E53BB424D0D8B4 /* SwiftyJSON.swift */,
 				AD23301AA4E300AA68B2F8060CE80445 /* Support Files */,
 			);
+			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -1336,6 +1338,7 @@
 				9E03561DA39D5950784763A8176511C0 /* Zip+Collection.swift */,
 				FAA8129CEE8A843C4328045D555D3D72 /* Support Files */,
 			);
+			name = RxSwift;
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
@@ -1375,6 +1378,7 @@
 				FFBA466CA97B2D99E49A044A6E500D90 /* RxAtomic.h */,
 				90DCCDA2A2084B92CC923C65B6A2A9F8 /* Support Files */,
 			);
+			name = RxAtomic;
 			path = RxAtomic;
 			sourceTree = "<group>";
 		};
@@ -1385,7 +1389,7 @@
 				267209176EA0CCE20C33C4D1FD2A4ADD /* RxAtomic.framework */,
 				10155283D0550DB26871B5B9C387F9ED /* RxCocoa.framework */,
 				F7E331886593254C6B4EEF9562638AE9 /* RxSwift.framework */,
-				C5639A5EE0F41BEB4AD7981C80EE20A6 /* iOS */,
+				DAF06BA54C0E95FFC41471D950F0D584 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1435,6 +1439,7 @@
 				57E94E873185F0EA35446C63C0996A0D /* Utilities.swift */,
 				362D67EA6E02F1B0154EBEC08D82A61D /* Support Files */,
 			);
+			name = Differentiator;
 			path = Differentiator;
 			sourceTree = "<group>";
 		};
@@ -1489,6 +1494,7 @@
 				AFB999F6C097C897EDF0FBC349B9A3E8 /* ViewTransition.swift */,
 				A204A6C0C1E3DC105E455711366AD65F /* Support Files */,
 			);
+			name = RxDataSources;
 			path = RxDataSources;
 			sourceTree = "<group>";
 		};
@@ -1514,6 +1520,7 @@
 				4705E0D6CB16E993C2F0C514D854D7A1 /* Validation.swift */,
 				D3A6FA548EB684E3AB39C68A54216F32 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1529,17 +1536,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyJSON";
-			sourceTree = "<group>";
-		};
-		C5639A5EE0F41BEB4AD7981C80EE20A6 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EB4834EAB9CB1F197608586F9229F4B5 /* CoreGraphics.framework */,
-				EF77C0306DDD21ABEE80DBDCAEDEDC55 /* Foundation.framework */,
-				D1F27A112A4FA0791B23C1855629538B /* QuartzCore.framework */,
-				263DA01DBE0B2AA675E311308D24E663 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D3A6FA548EB684E3AB39C68A54216F32 /* Support Files */ = {
@@ -1564,6 +1560,17 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		DAF06BA54C0E95FFC41471D950F0D584 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0BF657C9A7133D844A61927946B3234B /* CoreGraphics.framework */,
+				26EAFEFD60132AE300A4DF6C501C197C /* Foundation.framework */,
+				54E5B4E06EFDE1C6430DD0FB7CEFD8B1 /* QuartzCore.framework */,
+				D45AC0B4D053F4B04D3999303F9D8AD9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		E9FA0137693F22821192F87DF221E004 /* IQKeyboardManagerSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -1586,6 +1593,7 @@
 				D7B92DB9983C3958DB262A6174BFE29B /* Resources */,
 				94E4956E492838FE992D3CFD8FB589E7 /* Support Files */,
 			);
+			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -1878,7 +1886,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2435,7 +2443,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxDataSources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxDataSources/RxDataSources.modulemap";
 				PRODUCT_MODULE_NAME = RxDataSources;
 				PRODUCT_NAME = RxDataSources;
@@ -2505,7 +2517,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -2527,7 +2538,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxDataSources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxDataSources/RxDataSources.modulemap";
 				PRODUCT_MODULE_NAME = RxDataSources;
 				PRODUCT_NAME = RxDataSources;
@@ -2559,7 +2574,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
 				PRODUCT_MODULE_NAME = RxSwift;
 				PRODUCT_NAME = RxSwift;
@@ -2592,7 +2611,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxAtomic/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxAtomic/RxAtomic.modulemap";
 				PRODUCT_MODULE_NAME = RxAtomic;
 				PRODUCT_NAME = RxAtomic;
@@ -2624,7 +2647,11 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -2657,7 +2684,11 @@
 				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
 				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
 				PRODUCT_NAME = IQKeyboardManagerSwift;
@@ -2690,7 +2721,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-WiFinder/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WiFinder/Pods-WiFinder.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2725,7 +2760,11 @@
 				INFOPLIST_FILE = "Target Support Files/Differentiator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Differentiator/Differentiator.modulemap";
 				PRODUCT_MODULE_NAME = Differentiator;
 				PRODUCT_NAME = Differentiator;
@@ -2758,7 +2797,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxAtomic/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxAtomic/RxAtomic.modulemap";
 				PRODUCT_MODULE_NAME = RxAtomic;
 				PRODUCT_NAME = RxAtomic;
@@ -2852,7 +2895,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxCocoa/RxCocoa.modulemap";
 				PRODUCT_MODULE_NAME = RxCocoa;
 				PRODUCT_NAME = RxCocoa;
@@ -2884,7 +2931,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
 				PRODUCT_MODULE_NAME = RxSwift;
 				PRODUCT_NAME = RxSwift;
@@ -2916,7 +2967,11 @@
 				INFOPLIST_FILE = "Target Support Files/Differentiator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Differentiator/Differentiator.modulemap";
 				PRODUCT_MODULE_NAME = Differentiator;
 				PRODUCT_NAME = Differentiator;
@@ -2948,7 +3003,11 @@
 				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
 				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
 				PRODUCT_NAME = IQKeyboardManagerSwift;
@@ -2981,7 +3040,11 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyJSON;
 				PRODUCT_NAME = SwiftyJSON;
@@ -3014,7 +3077,11 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -3046,7 +3113,11 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyJSON;
 				PRODUCT_NAME = SwiftyJSON;
@@ -3078,7 +3149,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxCocoa/RxCocoa.modulemap";
 				PRODUCT_MODULE_NAME = RxCocoa;
 				PRODUCT_NAME = RxCocoa;
@@ -3112,7 +3187,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-WiFinder/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WiFinder/Pods-WiFinder.modulemap";
 				OTHER_LDFLAGS = "";

@@ -11,6 +11,6 @@ import Foundation
 let BASE_URL = "https://itunes.apple.com"
 let SEARCH_URL = "\(BASE_URL)/search"
 
-enum ITunesSearchMedia: String {
+enum ITunesSearchMedia: String, CaseIterable {
   case movie, music, tvShow
 }
