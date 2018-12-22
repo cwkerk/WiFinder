@@ -13,7 +13,8 @@ import SwiftyJSON
 struct ITunesSearchManager {
   
   func search(hints:[ String], media: ITunesSearchMedia) -> Observable<[ITunesSearchResult]>? {
-    let path = "\(SEARCH_URL)?term=\(hints.joined(separator: "+"))&media=\(media.rawValue)"
+    let term = hints.joined(separator: "+")
+    let path = "\(SEARCH_URL)?term=\(term)&media=\(media.rawValue)&limit=25&sort=recent"
     guard let url = URL(string: path) else { return nil }
     return Observable<Data>.create { (observable) -> Disposable in
       Alamofire.request(

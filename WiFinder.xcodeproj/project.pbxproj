@@ -17,6 +17,7 @@
 		2C8F0E5121CA9BD00006A4BF /* ITunesSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E5021CA9BD00006A4BF /* ITunesSearchManager.swift */; };
 		2C8F0E5321CA9CAE0006A4BF /* ITunesSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E5221CA9CAE0006A4BF /* ITunesSearchResult.swift */; };
 		723C88E121CE20EC002A2A66 /* ITunesSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C88E021CE20EC002A2A66 /* ITunesSearchTableViewCell.swift */; };
+		72EF3EF321CE771000F2C357 /* ITunesSearchItemPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EF3EF221CE771000F2C357 /* ITunesSearchItemPreviewViewController.swift */; };
 		B51E22A65185ED3982776EE5 /* Pods_WiFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7CB95F1D09AA8052FCE977 /* Pods_WiFinder.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		2C8F0E5021CA9BD00006A4BF /* ITunesSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchManager.swift; sourceTree = "<group>"; };
 		2C8F0E5221CA9CAE0006A4BF /* ITunesSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchResult.swift; sourceTree = "<group>"; };
 		723C88E021CE20EC002A2A66 /* ITunesSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchTableViewCell.swift; sourceTree = "<group>"; };
+		72EF3EF221CE771000F2C357 /* ITunesSearchItemPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchItemPreviewViewController.swift; sourceTree = "<group>"; };
 		7A7CB95F1D09AA8052FCE977 /* Pods_WiFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6252A734A7EC8309FB89F1F /* Pods-WiFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		C6C21826A6C0BA208E79EB47 /* Pods-WiFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				2C8F0E4C21CA98B90006A4BF /* ITunesSearchViewController.swift */,
+				72EF3EF221CE771000F2C357 /* ITunesSearchItemPreviewViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				2C8F0E3421CA92EF0006A4BF /* AppDelegate.swift in Sources */,
 				2C8F0E5121CA9BD00006A4BF /* ITunesSearchManager.swift in Sources */,
 				2C4A9A6D21CBD416001434C4 /* Constants.swift in Sources */,
+				72EF3EF321CE771000F2C357 /* ITunesSearchItemPreviewViewController.swift in Sources */,
 				723C88E121CE20EC002A2A66 /* ITunesSearchTableViewCell.swift in Sources */,
 				2C8F0E5321CA9CAE0006A4BF /* ITunesSearchResult.swift in Sources */,
 				2C8F0E4E21CA98B90006A4BF /* ITunesSearchViewController.swift in Sources */,

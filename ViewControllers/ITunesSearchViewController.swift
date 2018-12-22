@@ -42,6 +42,24 @@ class ITunesSearchViewController: UIViewController {
     }
   }
   
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    switch (segue.destination, segue.identifier, sender) {
+      case (
+        let vc as ITunesSearchItemPreviewViewController,
+        .some(let id),
+        .some(let path as String)
+      ) where id == "preview":
+        vc.mediaType = self.mediaType
+        vc.previewPath = path
+      default:
+        break
+    }
+  }
+  
+  public func showPreview(path: String) {
+    self.performSegue(withIdentifier: "preview", sender: path)
+  }
+  
   @objc private func refresh() {
     self.searchViewModel.search(hints: "")
   }

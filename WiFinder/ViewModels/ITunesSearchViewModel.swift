@@ -54,6 +54,20 @@ class ITunesSearchViewModel: NSObject {
         cell.render(result: result)
       }
       .disposed(by: self.disposeBag)
+    
+    tableView.rx.itemSelected.subscribe(
+      onNext: { (indexPath) in
+        if let path = self.searchResults[self.viewController.mediaType]?
+          .value[indexPath.row]
+          .previewPath {
+          self.viewController.showPreview(path: path)
+        }
+      },
+      onError: nil,
+      onCompleted: nil,
+      onDisposed: nil
+    )
+    .disposed(by: self.disposeBag)
   }
 
 }
