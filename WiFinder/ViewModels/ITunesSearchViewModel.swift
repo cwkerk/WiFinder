@@ -27,8 +27,13 @@ class ITunesSearchViewModel: NSObject {
   }
   
   public func search(hints: String) {
+    self.viewController.startRefresher()
     let hints = hints.components(separatedBy: "+")
     self.model.search(hints: hints, media: self.viewController.mediaType)?
+      .map({ (results) -> [ITunesSearchResult] in
+        self.viewController.stopRefresher()
+        return results
+      })
       .bind(to: self.searchResults[self.viewController.mediaType]!)
       .disposed(by: self.disposeBag)
   }
@@ -57,10 +62,8 @@ class ITunesSearchViewModel: NSObject {
     
     tableView.rx.itemSelected.subscribe(
       onNext: { (indexPath) in
-        if let path = self.searchResults[self.viewController.mediaType]?
-          .value[indexPath.row]
-          .previewPath {
-          self.viewController.showPreview(path: path)
+        if let item = self.searchResults[self.viewController.mediaType]?.value[indexPath.row] {
+          self.viewController.showPreview(item: item)
         }
       },
       onError: nil,

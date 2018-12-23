@@ -27,7 +27,6 @@ class ITunesSearchViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.searchViewModel = ITunesSearchViewModel(viewController: self)
     // Add UIRefreshControl to UITableView
     self.tableViewRefreshControl = UIRefreshControl()
     self.tableViewRefreshControl.addTarget(
@@ -40,6 +39,8 @@ class ITunesSearchViewController: UIViewController {
     } else {
       self.tableView.addSubview(self.tableViewRefreshControl)
     }
+    // create view model after all view relevant logics finished
+    self.searchViewModel = ITunesSearchViewModel(viewController: self)
   }
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -47,17 +48,29 @@ class ITunesSearchViewController: UIViewController {
       case (
         let vc as ITunesSearchItemPreviewViewController,
         .some(let id),
-        .some(let path as String)
+        .some(let item as ITunesSearchResult)
       ) where id == "preview":
+        vc.mediaEntity = item
         vc.mediaType = self.mediaType
-        vc.previewPath = path
       default:
         break
     }
   }
   
-  public func showPreview(path: String) {
-    self.performSegue(withIdentifier: "preview", sender: path)
+  public func showPreview(item: ITunesSearchResult) {
+    self.performSegue(withIdentifier: "preview", sender: item)
+  }
+  
+  public func startRefresher() {
+    DispatchQueue.main.async {
+      self.tableViewRefreshControl.beginRefreshing()
+    }
+  }
+  
+  public func stopRefresher() {
+    DispatchQueue.main.async {
+      self.tableViewRefreshControl.endRefreshing()
+    }
   }
   
   @objc private func refresh() {

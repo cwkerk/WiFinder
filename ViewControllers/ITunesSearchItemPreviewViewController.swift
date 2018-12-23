@@ -7,27 +7,48 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ITunesSearchItemPreviewViewController: UIViewController {
   
+  private var playerLayer: AVPlayerLayer!
+  
+  public var mediaEntity: ITunesSearchResult!
   public var mediaType: ITunesSearchMedia = .movie
-  public var previewPath: String = ""
+  
+  @IBOutlet weak var imageView: UIImageView!
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    print("\(self.mediaType): \(self.previewPath)")
-    // Do any additional setup after loading the view.
-  }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // image will be displayed as background only when it's music
+    switch self.mediaType {
+      case .music:
+        self.imageView.image = UIImage.from(path: self.mediaEntity.imagePath)
+      default:
+        self.imageView.removeFromSuperview()
     }
-    */
+    // Load preview
+    if let url = URL(string: self.mediaEntity.previewPath) {
+      self.playerLayer = AVPlayerLayer(player: AVPlayer(url: url))
+      self.playerLayer.frame = self.view.bounds
+      self.view.layer.addSublayer(self.playerLayer)
+    } else {
+      self.informativeAlert(title: "No preview is available", message: nil) { _ in
+        self.navigationController?.popViewController(animated: true)
+      }
+    }
+  }
+  
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    self.playerLayer.player?.play()
+  }
+  
+  override func viewWillTransition(
+    to size: CGSize,
+    with coordinator: UIViewControllerTransitionCoordinator
+  ) {
+    self.playerLayer.frame = CGRect(origin: CGPoint.zero, size: size)
+  }
 
 }

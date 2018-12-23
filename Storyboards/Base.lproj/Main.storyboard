@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LP3-df-Qto">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LP3-df-Qto">
                                 <rect key="frame" x="0.0" y="120" width="375" height="498"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -30,7 +30,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="234"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p5A-S1-fda" id="3eg-zj-bpv">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="233.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="234"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qdn-yB-EaE">
@@ -100,17 +100,31 @@
         <!--iTunes Search Item Preview View Controller-->
         <scene sceneID="OQq-2d-JbO">
             <objects>
-                <viewController id="TWI-lf-BOi" customClass="ITunesSearchItemPreviewViewController" customModule="WiFinder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="TWI-lf-BOi" customClass="ITunesSearchItemPreviewViewController" customModule="WiFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a5y-fd-asT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TIb-6j-IKK">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TIb-6j-IKK" firstAttribute="trailing" secondItem="RMn-cp-Bz6" secondAttribute="trailing" id="9dX-OD-YQi"/>
+                            <constraint firstItem="TIb-6j-IKK" firstAttribute="leading" secondItem="RMn-cp-Bz6" secondAttribute="leading" id="Bfh-7X-SN9"/>
+                            <constraint firstItem="TIb-6j-IKK" firstAttribute="top" secondItem="RMn-cp-Bz6" secondAttribute="top" id="Kxz-Xd-ikG"/>
+                            <constraint firstItem="TIb-6j-IKK" firstAttribute="bottom" secondItem="RMn-cp-Bz6" secondAttribute="bottom" id="o3T-qk-U6r"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RMn-cp-Bz6"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="TIb-6j-IKK" id="xU5-Q1-Ms3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZZY-4I-8Rm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1028" y="-72"/>
+            <point key="canvasLocation" x="-1028" y="-72.413793103448285"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7U9-Mu-jKJ">
