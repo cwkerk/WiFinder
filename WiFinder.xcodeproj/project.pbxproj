@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2C4A9A6D21CBD416001434C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A9A6C21CBD416001434C4 /* Constants.swift */; };
+		2C4A9A6F21D06308001434C4 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A9A6E21D06308001434C4 /* UIImageExtension.swift */; };
+		2C4A9A7121D06757001434C4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A9A7021D06757001434C4 /* UIViewExtension.swift */; };
 		2C8F0E3421CA92EF0006A4BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3321CA92EF0006A4BF /* AppDelegate.swift */; };
 		2C8F0E3921CA92EF0006A4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3721CA92EF0006A4BF /* Main.storyboard */; };
 		2C8F0E3B21CA92F00006A4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3A21CA92F00006A4BF /* Assets.xcassets */; };
@@ -19,12 +21,13 @@
 		723C88E121CE20EC002A2A66 /* ITunesSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C88E021CE20EC002A2A66 /* ITunesSearchTableViewCell.swift */; };
 		72EF3EF321CE771000F2C357 /* ITunesSearchItemPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EF3EF221CE771000F2C357 /* ITunesSearchItemPreviewViewController.swift */; };
 		72F014E021CF449700F4482D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F014DF21CF449600F4482D /* UIViewControllerExtension.swift */; };
-		72F014E221CF44F200F4482D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F014E121CF44F200F4482D /* UIImageExtension.swift */; };
 		B51E22A65185ED3982776EE5 /* Pods_WiFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7CB95F1D09AA8052FCE977 /* Pods_WiFinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C4A9A6C21CBD416001434C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2C4A9A6E21D06308001434C4 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		2C4A9A7021D06757001434C4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		2C8F0E3021CA92EF0006A4BF /* WiFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8F0E3321CA92EF0006A4BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C8F0E3821CA92EF0006A4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +41,6 @@
 		723C88E021CE20EC002A2A66 /* ITunesSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchTableViewCell.swift; sourceTree = "<group>"; };
 		72EF3EF221CE771000F2C357 /* ITunesSearchItemPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchItemPreviewViewController.swift; sourceTree = "<group>"; };
 		72F014DF21CF449600F4482D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		72F014E121CF44F200F4482D /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		7A7CB95F1D09AA8052FCE977 /* Pods_WiFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6252A734A7EC8309FB89F1F /* Pods-WiFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		C6C21826A6C0BA208E79EB47 /* Pods-WiFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +95,7 @@
 				2C4A9A6C21CBD416001434C4 /* Constants.swift */,
 				2C8F0E5021CA9BD00006A4BF /* ITunesSearchManager.swift */,
 				2C8F0E5221CA9CAE0006A4BF /* ITunesSearchResult.swift */,
-				72F014E121CF44F200F4482D /* UIImageExtension.swift */,
+				2C4A9A6E21D06308001434C4 /* UIImageExtension.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				723C88E021CE20EC002A2A66 /* ITunesSearchTableViewCell.swift */,
+				2C4A9A7021D06757001434C4 /* UIViewExtension.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -289,8 +292,9 @@
 			files = (
 				2C8F0E4B21CA95F90006A4BF /* ITunesSearchViewModel.swift in Sources */,
 				2C8F0E3421CA92EF0006A4BF /* AppDelegate.swift in Sources */,
+				2C4A9A7121D06757001434C4 /* UIViewExtension.swift in Sources */,
 				72F014E021CF449700F4482D /* UIViewControllerExtension.swift in Sources */,
-				72F014E221CF44F200F4482D /* UIImageExtension.swift in Sources */,
+				2C4A9A6F21D06308001434C4 /* UIImageExtension.swift in Sources */,
 				2C8F0E5121CA9BD00006A4BF /* ITunesSearchManager.swift in Sources */,
 				2C4A9A6D21CBD416001434C4 /* Constants.swift in Sources */,
 				72EF3EF321CE771000F2C357 /* ITunesSearchItemPreviewViewController.swift in Sources */,
