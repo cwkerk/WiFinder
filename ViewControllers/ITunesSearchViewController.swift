@@ -11,7 +11,6 @@ import UIKit
 class ITunesSearchViewController: UIViewController {
   
   private var searchViewModel: ITunesSearchViewModel!
-  private var tableViewRefreshControl: UIRefreshControl!
   
   public var mediaType: ITunesSearchMedia {
     switch self.tabBarController?.selectedIndex {
@@ -27,18 +26,6 @@ class ITunesSearchViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Add UIRefreshControl to UITableView
-    self.tableViewRefreshControl = UIRefreshControl()
-    self.tableViewRefreshControl.addTarget(
-      self,
-      action: #selector(self.refresh),
-      for: [.valueChanged]
-    )
-    if #available(iOS 10.0, *) {
-      self.tableView.refreshControl = self.tableViewRefreshControl
-    } else {
-      self.tableView.addSubview(self.tableViewRefreshControl)
-    }
     // create view model after all view relevant logics finished
     self.searchViewModel = ITunesSearchViewModel(viewController: self)
   }
@@ -59,22 +46,6 @@ class ITunesSearchViewController: UIViewController {
   
   public func showPreview(item: ITunesSearchResult) {
     self.performSegue(withIdentifier: "preview", sender: item)
-  }
-  
-  public func startRefresher() {
-    DispatchQueue.main.async {
-      self.tableViewRefreshControl.beginRefreshing()
-    }
-  }
-  
-  public func stopRefresher() {
-    DispatchQueue.main.async {
-      self.tableViewRefreshControl.endRefreshing()
-    }
-  }
-  
-  @objc private func refresh() {
-    self.searchViewModel.search(hints: "")
   }
 
 }

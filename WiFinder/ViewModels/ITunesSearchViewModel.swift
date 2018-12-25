@@ -27,11 +27,9 @@ class ITunesSearchViewModel: NSObject {
   }
   
   public func search(hints: String) {
-    self.viewController.startRefresher()
     let hints = hints.components(separatedBy: "+")
     self.model.search(hints: hints, media: self.viewController.mediaType)?
       .map({ (results) -> [ITunesSearchResult] in
-        self.viewController.stopRefresher()
         return results
       })
       .bind(to: self.searchResults[self.viewController.mediaType]!)
@@ -41,9 +39,20 @@ class ITunesSearchViewModel: NSObject {
   private func bindSearcher(_ searcher: UISearchBar) {
     searcher.rx.text.orEmpty
       .distinctUntilChanged()
+      .throttle(KEYBOARD_RESPONSE_DELAY, scheduler: MainScheduler.instance)
       .subscribe(
         onNext: self.search,
         onError: nil,
+        onCompleted: nil,
+        onDisposed: nil
+      )
+      .disposed(by: self.disposeBag)
+    
+    searcher.rx.searchButtonClicked.asSignal()
+      .emit(
+        onNext: {
+          searcher.resignFirstResponder()
+        },
         onCompleted: nil,
         onDisposed: nil
       )

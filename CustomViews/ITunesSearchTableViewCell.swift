@@ -12,14 +12,22 @@ class ITunesSearchTableViewCell: UITableViewCell {
   
   static let identifier = "ITunesSearchTableViewCell"
   
-  @IBOutlet weak var thumbnailView: UIImageView!
+  @IBOutlet weak var thumbnailButton: UIButton!
   @IBOutlet weak var nameLabel: UILabel!
   @IBOutlet weak var descriptionLabel: UILabel!
   
   public func render(result: ITunesSearchResult) {
-    self.thumbnailView.image = UIImage.from(path: result.imagePath)
-    self.nameLabel.text = result.name
+    UIImage.from(path: result.imagePath) { (image) in
+      self.thumbnailButton.setImage(image?.withRenderingMode(.alwaysOriginal), for: .normal)
+    }
+    self.thumbnailButton.layer.cornerRadius = 10
+    self.nameLabel.text = "Title: \(result.name)"
     self.descriptionLabel.text = result.description
+  }
+  
+  @IBAction func thumbnailPressed(_ sender: Any) {
+    self.resignFirstResponder()
+    self.thumbnailButton.bounce(completion: nil)
   }
   
 }

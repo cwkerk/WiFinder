@@ -23,7 +23,9 @@ class ITunesSearchItemPreviewViewController: UIViewController {
     // image will be displayed as background only when it's music
     switch self.mediaType {
       case .music:
-        self.imageView.image = UIImage.from(path: self.mediaEntity.imagePath)
+        UIImage.from(path: self.mediaEntity.imagePath) { (image) in
+          self.imageView.image = image
+        }
       default:
         self.imageView.removeFromSuperview()
     }

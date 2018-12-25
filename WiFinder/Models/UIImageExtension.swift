@@ -10,13 +10,24 @@ import UIKit
 
 extension UIImage {
   
-  static func from(path: String) -> UIImage? {
-    guard let url = URL(string: path) else { return nil }
-    do {
-      let data = try Data(contentsOf: url)
-      return UIImage(data: data)
-    } catch {
-      return nil
+  static func from(path: String, completion: @escaping (UIImage?) -> Void) {
+    DispatchQueue.global().async {
+      guard let url = URL(string: path) else {
+        DispatchQueue.main.async {
+          completion(nil)
+        }
+        return
+      }
+      do {
+        let data = try Data(contentsOf: url)
+        DispatchQueue.main.async {
+          completion(UIImage(data: data))
+        }
+      } catch {
+        DispatchQueue.main.async {
+          completion(nil)
+        }
+      }
     }
   }
   
