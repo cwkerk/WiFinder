@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1010"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1CA2517BAADF0BEE4799CAFEED30407"
+               BlueprintIdentifier = "3D0DBF15384EBC725456315EF57DE1BF"
                BuildableName = "Pods_WiFinder.framework"
                BlueprintName = "Pods-WiFinder"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1CA2517BAADF0BEE4799CAFEED30407"
+            BlueprintIdentifier = "3D0DBF15384EBC725456315EF57DE1BF"
             BuildableName = "Pods_WiFinder.framework"
             BlueprintName = "Pods-WiFinder"
             ReferencedContainer = "container:Pods.xcodeproj">

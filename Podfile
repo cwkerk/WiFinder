@@ -8,7 +8,6 @@ target 'WiFinder' do
   # Pods for WiFinder
   pod 'Alamofire', '~> 4.7'
   pod 'RxCocoa',    '~> 4.0'
-  pod 'RxDataSources', '~> 3.0'
   pod 'RxSwift',    '~> 4.0'
   pod 'SwiftyJSON', '~> 4.0'
 
