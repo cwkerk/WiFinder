@@ -12,7 +12,6 @@
 		2C4A9A7121D06757001434C4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A9A7021D06757001434C4 /* UIViewExtension.swift */; };
 		2C8F0E3421CA92EF0006A4BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3321CA92EF0006A4BF /* AppDelegate.swift */; };
 		2C8F0E3921CA92EF0006A4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3721CA92EF0006A4BF /* Main.storyboard */; };
-		2C8F0E3B21CA92F00006A4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3A21CA92F00006A4BF /* Assets.xcassets */; };
 		2C8F0E3E21CA92F00006A4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F0E3C21CA92F00006A4BF /* LaunchScreen.storyboard */; };
 		2C8F0E4B21CA95F90006A4BF /* ITunesSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E4A21CA95F90006A4BF /* ITunesSearchViewModel.swift */; };
 		2C8F0E4E21CA98B90006A4BF /* ITunesSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F0E4C21CA98B90006A4BF /* ITunesSearchViewController.swift */; };
@@ -31,7 +30,6 @@
 		2C8F0E3021CA92EF0006A4BF /* WiFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8F0E3321CA92EF0006A4BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C8F0E3821CA92EF0006A4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2C8F0E3A21CA92F00006A4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C8F0E3D21CA92F00006A4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8F0E3F21CA92F00006A4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C8F0E4A21CA95F90006A4BF /* ITunesSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchViewModel.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				2C8F0E4621CA952F0006A4BF /* Views */,
 				2C8F0E4721CA95330006A4BF /* ViewModels */,
 				2C8F0E3321CA92EF0006A4BF /* AppDelegate.swift */,
-				2C8F0E3A21CA92F00006A4BF /* Assets.xcassets */,
 				2C8F0E3F21CA92F00006A4BF /* Info.plist */,
 			);
 			path = WiFinder;
@@ -225,7 +222,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8F0E3E21CA92F00006A4BF /* LaunchScreen.storyboard in Resources */,
-				2C8F0E3B21CA92F00006A4BF /* Assets.xcassets in Resources */,
 				2C8F0E3921CA92EF0006A4BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,7 +238,6 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
@@ -253,7 +248,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
