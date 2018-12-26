@@ -26,7 +26,6 @@ class ITunesSearchViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // create view model after all view relevant logics finished
     self.searchViewModel = ITunesSearchViewModel(viewController: self)
   }
   

@@ -9,7 +9,7 @@
 import RxSwift
 import RxCocoa
 
-class ITunesSearchViewModel: NSObject {
+class ITunesSearchViewModel {
   
   private let disposeBag = DisposeBag()
   private let model = ITunesSearchManager()
@@ -18,7 +18,6 @@ class ITunesSearchViewModel: NSObject {
   
   init(viewController: ITunesSearchViewController) {
     self.viewController = viewController
-    super.init()
     ITunesSearchMedia.allCases.forEach {
       self.searchResults[$0] = BehaviorRelay<[ITunesSearchResult]>(value: [])
     }
